@@ -9,7 +9,7 @@ body{
 }
 
 .weather-box {
-    background: #000000d0;
+    background: #1a1818d0;
     color: white;
     padding: 2em;
     border-radius: 30px;
@@ -35,4 +35,15 @@ button {
     color: white;
     cursor: pointer;
     transition: 0.3s ease-in-out;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 25px;
+    background: #7e77772b;
+    color: white;
+    font-size: 100%;
+    width: calc(100% - 100px);
 }
