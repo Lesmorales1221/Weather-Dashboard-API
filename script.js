@@ -6,7 +6,10 @@ let weather = {
             .then((data)=> console.log(data));
     },
     displayWeather: function(data){
-
+        const {name} = data;
+        const {icon, description} = data.weather [0];
+        const {temp, humidity} = data.main;
+        const {speed} = data.wind;
     }
 
 
