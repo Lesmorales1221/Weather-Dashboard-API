@@ -52,6 +52,11 @@ button:hover {
     background: #d1caca2b;
 }
 
+h2.city {
+    display: flex;
+    margin-right: 0.5em;
+}
+
 h1.temp {
     margin: 0%;
     margin-bottom: 0.5em;
