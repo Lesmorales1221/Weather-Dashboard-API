@@ -25,9 +25,16 @@ let weather = {
 
 };
 
-document.querySelector("search button").addEventListener("click", function() {
+document.querySelector(".search").addEventListener("click", function() {
     weather.search();
 });
 
 document
 .querySelector(".search-bar")
+.addEventListener("keypress", function (event) {
+    if (event.key == "Enter") {
+        weather.search();
+    }
+});
+
+weather.fetchWeather("Indianapols");
